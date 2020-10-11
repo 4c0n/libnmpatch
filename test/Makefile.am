@@ -1,5 +1,5 @@
-AM_CPPFLAGS = -I.. -I../../libppf
-AM_LDFLAGS = -L../src -L../../libppf/src
+AM_CPPFLAGS = -I.. -I/usr/include/ppf
+AM_LDFLAGS = -L../src -L/usr/include/ppf
 
 LDADD = -lnmpatch -lppf -ltcl8.6
 
